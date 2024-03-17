@@ -17,10 +17,15 @@ body {
   padding: 50px;
   width: 100%;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 h1 {
   font-family: 'Merriweather', serif;
+}
+
+.text-info{
+   font-weight: 400;
 }
 
 .tags {
@@ -64,6 +69,7 @@ h1 {
   @media (max-width: 600px) {
     grid-template-columns: repeat(1, 1fr);
   }
+  position: relative;
 }
 
 .collection {
